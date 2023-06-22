@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV BAR */
+
+.nav-bar {
+    padding: 2em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 3px 3px #c0b4b4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-items-container {
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.25em;
+    color: rgb(89, 89, 216);
+    transition: 0.2s;
+}
+
+.nav-item:hover {
+    color: rgb(43, 43, 201);
+    transform: translateY(-3px);
+}
+
+/* HOME PAGE */
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8em 0;
+}
+
+.page-title {
+    font-size: 5em;
+    letter-spacing: 5px;
+}
+
+.page-subtitle {
+    font-size: 2em;
+    margin: 1em 0;
+}
+
+.quick-buttons-container {
+    margin: 1em 0;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.quick-button {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 0.5em 1.5em;
+    background-color: rgb(126, 126, 235);
+    color: white;
+    border-radius: 10px;
+}
+
+.quick-button:hover {
+    background-color: rgb(43, 43, 201);
+    transform: translateY(-3px);
+}
+
+/* ABOUT PAGE */
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8em 0;
+}
+
+.about-info-container {
+    width: 60%;
+    margin: 3em 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+.about-info,
+.about-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-blurb {
+    line-height: 25px;
+    letter-spacing: 1px;
+    border: solid rgba(182, 182, 182, 0.7) 2px;
+    padding: 2.5em;
+    border-radius: 50px;
+}
+
+.about-image {
+    border-radius: 50px;
+    width: 300px;
+}
+
+.skills-education-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3em 0;
+}
+
+.skills-title, .education-title {
+    font-size: 2em;
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+}
+
+.education-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.education-container {
+    border: solid black 1px;
+    padding: 1em 3em;
+    border-radius: 10px;
+    margin: 0.5em 0;
+    text-align: center;
+    width: 100%;
+}
+
+.education-item-title {
+    font-size: 1em;
+}
+
+.education-item-info {
+    font-weight: normal;
+    font-size: 0.9em;
+    margin: 0.75em 0;
+}
+
+/* FOOTER BAR */
+
+.footer-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 60, 60);
+    color: white;
+    padding: 2em 0;
+}
