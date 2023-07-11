@@ -89,7 +89,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 8em 0;
+    margin-top: 8em;
 }
 
 .about-info-container {
@@ -115,11 +115,13 @@
     border: solid rgba(182, 182, 182, 0.7) 2px;
     padding: 2.5em;
     border-radius: 50px;
+    box-shadow:0 8px 20px rgba(0, 0, 0, 0.6);
 }
 
 .about-image {
     border-radius: 50px;
-    width: 300px;
+    width: 425px;
+    box-shadow:0 8px 20px rgba(0, 0, 0, 0.6);
 }
 
 .skills-education-section {
@@ -129,11 +131,70 @@
     margin: 3em 0;
 }
 
+.education-section {
+    margin-right: 3rem;
+}
+
 .skills-title, .education-title {
     font-size: 2em;
     letter-spacing: 2px;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
 }
+
+.skills-section {
+    border: solid rgba(182, 182, 182, 0.7) 2px;
+    border-radius: 15px;
+    box-shadow:0 8px 20px rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 20rem;
+  }
+
+.skill {
+    height: 22px;
+    line-height: 22px;
+    border-radius: 8px;
+    padding: 0 8px;
+    margin: 5px 8px 5px 0;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .language {
+    background: rgba(167, 6, 14, 0.15);
+    color: #a7060e;
+  }
+  
+  .library-framework {
+    background: rgba(4, 84, 204, 0.15);
+    color: #0454cc;
+  }
+  
+  .database {
+    background: rgba(64, 29, 221, 0.15);
+    color: #401ddd;
+  }
+  
+  .other {
+    background: rgba(5, 116, 29, 0.15);
+    color: #05741d;
+  }
+  
+  .design {
+    background: rgba(177, 8, 112, 0.15);
+    color: #b10870;
+  }
 
 .education-section {
     display: flex;
@@ -143,12 +204,13 @@
 }
 
 .education-container {
-    border: solid black 1px;
+    border: solid 1px rgba(0, 0, 0, 0.3);
     padding: 1em 3em;
     border-radius: 10px;
     margin: 0.5em 0;
     text-align: center;
     width: 100%;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .education-item-title {
