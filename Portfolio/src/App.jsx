@@ -3,18 +3,18 @@ import './App.css'
 import './index.css'
 import Home from './Components/Home'
 import About from './Components/About'
+import Projects from './Components/Projects'
 import { Route, Routes } from 'react-router-dom'
 
 function App() {
 
   return (
     <div className="App">
-
       <Routes>
         <Route exact path="/" element = {<Home />}/>
         <Route exact path="/about" element = {<About />}/>
+        <Route exact path="/projects" element = {<Projects />}/>
       </Routes>
-
     </div>
   )
 }
