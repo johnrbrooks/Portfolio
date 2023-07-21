@@ -10,14 +10,16 @@ const About = () => {
         <div className="about-page">
             <Nav />
             <div className="about-section">
-                <h1 className="page-title">About</h1>
+                <h1 className="page-title-about">About</h1>
                 <div className="about-info-container">
-                    <div className="about-info">
-                        <p className="about-blurb">A motivated Software Engineer fueled by a strong desire for achievement, ingenuity, and a dedication to providing effective and sophisticated solutions to complex challenges. With a background in audio engineering and entrepreneurship, I possess abilities in innovative and streamlined troubleshooting, thorough precision, and adaptability. Driven by a strong commitment to creating unique and accessible products and services, I aim to positively influence people and revolutionize their approach to critical aspects of business, life, and software.</p>
-                    </div>
                     <div className="about-pic">
                         <img className="about-image" src={headshotImage} alt="Headshot-image" />
                     </div>
+                    <div className="about-info">
+                        <h2 className='purpose-statement'>Purpose Statement</h2>
+                        <p className="about-blurb">A motivated Software Engineer fueled by a strong desire for achievement, ingenuity, and a dedication to providing effective and sophisticated solutions to complex challenges. With a background in audio engineering and entrepreneurship, I possess abilities in innovative and streamlined troubleshooting, thorough precision, and adaptability. Driven by a strong commitment to creating unique and accessible products and services, I aim to positively influence people and revolutionize their approach to critical aspects of business, life, and software.</p>
+                    </div>
+                    
                 </div>
             </div>
             <div className="skills-education-section">

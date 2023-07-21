@@ -104,21 +104,37 @@ main {
     margin-top: 8em;
 }
 
+.page-title-about {
+    font-size: 5em;
+    letter-spacing: 5px;
+    opacity: 0;
+    transform: translateX(20px);
+    animation: fadeRight 1s ease-out forwards;
+}
+
 .about-info-container {
     width: 60%;
     margin: 3em 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2em;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .about-info,
 .about-pic {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.purpose-statement {
+    font-size: 3rem;
+    margin: 2.5rem 0;
+    opacity: 0;
+    transform: translateX(20px);
+    animation: fadeRight 1s ease-out forwards;
 }
 
 .about-blurb {
@@ -128,23 +144,37 @@ main {
     padding: 2.5em;
     border-radius: 50px;
     box-shadow:0 8px 20px rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: fadeLeft 1s ease-out forwards;
+    transition: 0.4s;
+}
+
+.about-blurb:hover {
+    background-color: rgb(76, 76, 76);
+    color: white;
+    translate: transformY(-6px);
+    cursor: pointer;
 }
 
 .about-image {
     border-radius: 50px;
     width: 425px;
     box-shadow:0 8px 20px rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: fadeLeft 1s ease-out forwards;
 }
 
 .skills-education-section {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin: 3em 0;
-}
-
-.education-section {
-    margin-right: 3rem;
+    margin: 2em 0;
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: fadeLeft 1s ease-out forwards;
 }
 
 .skills-title, .education-title {
@@ -159,6 +189,18 @@ main {
     border-radius: 15px;
     box-shadow:0 8px 20px rgba(0, 0, 0, 0.6);
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-bottom: 3rem;
+}
+
+.education-container:hover {
+    background-color: rgb(76, 76, 76);
+    color: white;
+    cursor: pointer;
 }
 
 .skills {
@@ -166,7 +208,7 @@ main {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 20rem;
+    width: 80%;
   }
 
 .skill {
@@ -213,27 +255,55 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
 }
 
 .education-container {
     border: solid 1px rgba(0, 0, 0, 0.3);
     padding: 1em 3em;
+    padding-top: 1.75rem;
     border-radius: 10px;
     margin: 0.5em 0;
     text-align: center;
     width: 100%;
     box-shadow:0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
 }
 
 .education-item-title {
     font-size: 1em;
+    line-height: 25px;
+    letter-spacing: 1px;
 }
 
 .education-item-info {
     font-weight: normal;
-    font-size: 0.9em;
     margin: 0.75em 0;
+    line-height: 25px;
+    letter-spacing: 1px;
 }
+
+@keyframes fadeLeft {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+@keyframes fadeRight {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
 
 /* PROJECTS PAGE */
 
@@ -269,6 +339,19 @@ main {
 .project-details {
     text-align: center;
     width: 50%;
+}
+
+.project-info {
+    line-height: 25px;
+    letter-spacing: 1px;
+    border: solid rgba(182, 182, 182, 0.7) 2px;
+    padding: 2.5em;
+    border-radius: 50px;
+    box-shadow:0 8px 20px rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: fadeLeft 1s ease-out forwards;
+    transition: 0.4s;
 }
 
 /* FOOTER BAR */

@@ -4,6 +4,8 @@ import './index.css'
 import Home from './Components/Home'
 import About from './Components/About'
 import Projects from './Components/Projects'
+import Resume from './Components/Resume'
+import Contact from './Components/Contact'
 import { Route, Routes } from 'react-router-dom'
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
         <Route exact path="/" element = {<Home />}/>
         <Route exact path="/about" element = {<About />}/>
         <Route exact path="/projects" element = {<Projects />}/>
+        <Route exact path="/resume" element = {<Resume />}/>
+        <Route exact path="/contact" element = {<Contact />}/>
       </Routes>
     </div>
   )
