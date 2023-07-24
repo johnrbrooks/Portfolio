@@ -19,7 +19,7 @@ export default function Projects() {
                         <div className="project-details">
                             <h2 className="project-title">helloWorld.ai</h2>
                             <div className="project-info">
-                                <p className="project-info-blurb">helloWorld is a user-friendly chat app that allows you to create a user, add your friends to your friends list, and then chat with them at will. In addition to providing a user to user chat experience, we've also implemented an AI Chat componenet which allows you to chat directly to a ChatGPT based AI to answer questions you may have while chatting!</p>
+                                <p className="project-info-blurb">helloWorld is a user-friendly chat app that allows you to create a user, add your friends to your friends list, and then chat with them at will. In addition to providing a user to user chat experience, we've also implemented an AI Chat component which allows you to chat directly to a ChatGPT based AI to answer questions you may have while chatting!</p>
                                 <div className="project-info-images">
                                     <a href="https://github.com/kevinleet/helloWorld_frontend" className='image-link'><img src={github} className='link-images' alt="github" /></a>
                                     <a href="https://helloworldfrontend-production.up.railway.app/login" className='image-link'><img src={linkIcon} className='link-images' alt="link" /></a>
@@ -28,7 +28,7 @@ export default function Projects() {
                         </div>
                     </div>
                     <hr/>
-                    <div className="project-item">
+                    <div className="project-item reversed">
                         <div className="project-details">
                             <h2 className="project-title">My Fitness Calendar</h2>
                             <div className="project-info">

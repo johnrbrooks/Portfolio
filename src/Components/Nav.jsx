@@ -1,3 +1,4 @@
+import resume from '../assets/SE Resume_July2023.pdf'
 import { Link } from 'react-router-dom'
 
 const Nav = () => {
@@ -7,7 +8,7 @@ const Nav = () => {
                 <Link to="/" className="nav-item">Home</Link>
                 <Link to="/about" className="nav-item">About</Link>
                 <Link to="/projects" className="nav-item">Projects</Link>
-                <Link to="/resume" className="nav-item">Resume</Link>
+                <a href={resume} className='nav-item' target="_blank">Resume</a>
             </nav>
         </div>      
     )
