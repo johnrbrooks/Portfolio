@@ -2,6 +2,7 @@ import Nav from './Nav'
 import Footer from './Footer'
 import github from '../assets/images/github-sign.png'
 import linkIcon from '../assets/images/link.png'
+import studioSyncPic from '../assets/images/StudioSyncDashboardPage2.png'
 import helloWorldPic from '../assets/images/helloWorldHome.png'
 import mfcPic from '../assets/images/My Fitness Planner App Pic.png'
 import sudokuPic from '../assets/images/Sudoku App Pic.png'
@@ -14,6 +15,19 @@ export default function Projects() {
             <div className='hero-section'>
                 <h1 className="page-title">Projects</h1>
                 <div className="projects-section">
+                    <div className="project-item reversed">
+                        <div className="project-details">
+                            <h2 className="project-title">StudioSync</h2>
+                            <div className="project-info">
+                                <p className="project-info-blurb">StudioSync is a fully responsive MERN stack application that provides recording studio owners with a comprehensive solution to manage their customer relationships. Users have full CRUD (create, read, update, and delete) functionality on prospects, in addition to a calendar feature for follow-up tracking, and a data analytics page to keep track of the studio's sales activity.</p>
+                                <div className="project-info-images">
+                                    <a href="https://github.com/johnrbrooks/StudioSync-frontend" className='image-link'><img src={github} className='link-images' alt="github" /></a>
+                                    <a href="https://studiosync-frontend-production.up.railway.app/login" className='image-link'><img src={linkIcon} className='link-images' alt="link" /></a>
+                                </div>
+                            </div>
+                        </div>
+                        <img className='project-image' src={studioSyncPic} alt="project-image" />
+                    </div>
                     <div className="project-item">
                         <img className='project-image' src={helloWorldPic} alt="project-image" />
                         <div className="project-details">

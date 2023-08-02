@@ -2,6 +2,8 @@ import Nav from './Nav'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
 import headshotImage from '../assets/images/Headshot-white.jpg'
+import audioImage from '../assets/images/WorkingStudio.jpeg'
+import guitarImage from '../assets/images/BandStage.jpeg'
 import skills from '../assets/skills.js'
 
 
@@ -13,11 +15,11 @@ const About = () => {
                 <h1 className="page-title-about">About</h1>
                 <div className="about-info-container">
                     <div className="about-pic">
-                        <img className="about-image" src={headshotImage} alt="Headshot-image" />
+                        <img className="about-image" src={audioImage} alt="studio-image" />
+                        <img className="about-image" src={guitarImage} alt="guitar-image" />
                     </div>
                     <div className="about-info">
-                        <h2 className='purpose-statement'>Purpose Statement</h2>
-                        <p className="about-blurb">A motivated Software Engineer fueled by a strong desire for achievement, ingenuity, and a dedication to providing effective and sophisticated solutions to complex challenges. With a background in audio engineering and entrepreneurship, I possess abilities in innovative and streamlined troubleshooting, thorough precision, and adaptability. Driven by a strong commitment to creating unique and accessible products and services, I aim to positively influence people and revolutionize their approach to critical aspects of business, life, and software.</p>
+                        <p className="about-blurb">Growing up as a quick learner, I was always excited to delve into the next coolest thing I could learn and dedicate time and energy to passionately. This lead me through multiple sports before landing on hockey, lead me through multiple instruments before landing on guitar, and lead me through multiple career paths before landing on software engineering. I have never known how to pursue anything less than 110%, and it can be seen in all the endeavors I’ve pursued. From pursuing music all the way through a bachelor’s degree at JMU’s music school, to pursuing and succeeding in an audio engineering career for 5 years post-graduation, and eventually to graduating from two web development certification courses. Web development and software engineering has become the answer to a life of chasing the most challenging goals, solving the oddest and most obscure problems, and doing whatever it takes to get the job done right in the end. </p>
                     </div>
                     
                 </div>

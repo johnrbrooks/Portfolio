@@ -221,13 +221,24 @@ main {
     justify-content: center;
     align-items: center;
 }
-.about-info,
+
 .about-pic {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.about-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.about-info {
+    margin-top: 2.5rem;
 }
 
 .purpose-statement {
@@ -598,7 +609,11 @@ main {
         width: 100%;
         margin: 3em 0;
     }
-    
+
+    .about-image {
+        width: 200px;
+    }
+        
     .purpose-statement {
         font-size: 2rem;
         margin: 2.5rem 0;
@@ -610,6 +625,7 @@ main {
     .about-blurb {
         width: 75%;
         font-size: 0.75rem;
+        margin-top: 2.5rem;
         line-height: 25px;
         letter-spacing: 1px;
         border: solid rgba(182, 182, 182, 0.7) 2px;
@@ -620,10 +636,6 @@ main {
         transform: translateX(-20px);
         animation: fadeLeft 1s ease-out forwards;
         transition: 0.4s;
-    }
-    
-    .about-image {
-        width: 300px;
     }
     
     .skills-education-section {

@@ -1,4 +1,4 @@
-import resume from '../assets/SE Resume_July2023.pdf'
+import resume from '../assets/JohnBrooks_Resume_Aug2023.pdf'
 import { Link } from 'react-router-dom'
 
 const Nav = () => {
