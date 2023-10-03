@@ -21,7 +21,7 @@ export default function Projects() {
                         <div className="project-details">
                             <h2 className="project-title">A Night To Forget</h2>
                             <div className="project-info">
-                                <p className="project-info-blurb">A responsive, dynamic website for the D.C area band A Night To Forget. All show and song data is loaded from an MongoDB/Express API that can be updated by the band behind an admin portal login. In addition, users of the site have the ability to add shows to their calendar, see the latest show information, and listen to the band's curated Spotify playlist from the Songs page!</p>
+                                <p className="project-info-blurb">A responsive, dynamic website for the D.C area band A Night To Forget. All show and song data is loaded from a MongoDB/Express API that can be updated by the band behind an admin portal login. In addition, users of the site have the ability to add shows to their calendar, see the latest show information, and listen to the band's curated Spotify playlist from the Songs page!</p>
                                 <div className="project-info-images">
                                     <a href="https://github.com/johnrbrooks/ANTF-Band-Site-Front" className='image-link'><img src={github} className='link-images' alt="github" /></a>
                                     <a href="https://www.anighttoforget.com/" className='image-link'><img src={linkIcon} className='link-images' alt="link" /></a>
