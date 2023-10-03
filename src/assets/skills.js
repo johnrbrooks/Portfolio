@@ -11,14 +11,13 @@ const skills = [
     { id: 10, skill: "Django", type: "library-framework" },
     { id: 11, skill: "MongoDB", type: "database" },
     { id: 12, skill: "PostgreSQL", type: "database" },
-    { id: 13, skill: "MongoDB", type: "database" },
-    { id: 14, skill: "Git", type: "other" },
-    { id: 15, skill: "GitHub", type: "other" },
-    { id: 16, skill: "Heroku", type: "other" },
-    { id: 17, skill: "Netlify", type: "other" },
-    { id: 18, skill: "RESTful APIs", type: "other" },
-    { id: 19, skill: "Figma", type: "design" },
-    { id: 20, skill: "Responsive Design", type: "design" },
+    { id: 13, skill: "Git", type: "other" },
+    { id: 14, skill: "GitHub", type: "other" },
+    { id: 15, skill: "Heroku", type: "other" },
+    { id: 16, skill: "Netlify", type: "other" },
+    { id: 17, skill: "RESTful APIs", type: "other" },
+    { id: 18, skill: "Figma", type: "design" },
+    { id: 19, skill: "Responsive Design", type: "design" },
   ];
   
   export default skills;

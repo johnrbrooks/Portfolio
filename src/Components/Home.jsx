@@ -1,7 +1,7 @@
 import Nav from './Nav'
 import Footer from './Footer'
 import headshotImage from '../assets/images/Headshot-white.jpg'
-import resume from '../assets/John Brooks_Final SE Resume_Aug2023.pdf'
+import resume from '../assets/John Brooks_Oct2023.pdf'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
